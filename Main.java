@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     System.out.println("M&M Color Counts");
   
-  double totalMMs;
+  float totalMMs;
   float numBlue;
   float numBrown;
   float numGreen;
@@ -31,7 +31,7 @@ class Main {
   float numYellow = totalMMs * .14;
    System.out.println("Yellow: "numYellow); 
 
-  sum = numOrange + numBrown + numGreen + numOrange + numRed + numYellow
+  int sum = numOrange + numBrown + numGreen + numOrange + numRed + numYellow
   
   System.out.println("Sum: " + sum);
   
